@@ -60,6 +60,8 @@ Website ini adalah implementasi konsep **Object-Oriented Programming (OOP)** men
 ## Dokumentasi Video
 Berikut adalah dokumentasi video untuk menjalankan aplikasi:
 
+https://github.com/user-attachments/assets/ccaa0f5e-db5a-434b-8a79-2f26c2befd03
+
 **[Tonton di Lokal](Dokumentasi_Run_Program/record.mp4)**
 
 ---
