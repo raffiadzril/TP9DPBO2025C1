@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Mahasiswa</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container my-4">
+    <h3 class="mb-4">Edit Mahasiswa</h3>
+    <form action="edit.php" method="POST">
+      <input type="hidden" name="id" value="DATA_ID">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="nim">NIM</label>
+          <input type="text" class="form-control" id="nim" name="nim" value="DATA_NIM" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="nama">Nama</label>
+          <input type="text" class="form-control" id="nama" name="nama" value="DATA_NAMA" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="tempat">Tempat</label>
+          <input type="text" class="form-control" id="tempat" name="tempat" value="DATA_TEMPAT" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="tl">Tanggal Lahir</label>
+          <input type="date" class="form-control" id="tl" name="tl" value="DATA_TL" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="gender">Gender</label>
+          <select class="form-control" id="gender" name="gender" required>
+            <option value="Laki-laki" DATA_SELECTED_LAKI> Laki-laki</option>
+            <option value="Perempuan" DATA_SELECTED_PEREMPUAN> Perempuan</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" value="DATA_EMAIL" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="telp">Telepon</label>
+          <input type="text" class="form-control" id="telp" name="telp" value="DATA_TELP" required>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" name="update">Update</button>
+    </form>
+  </div>
+</body>
+
+</html>
